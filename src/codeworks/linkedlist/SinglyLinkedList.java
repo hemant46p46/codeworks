@@ -71,7 +71,6 @@ public class SinglyLinkedList {
 		}
 		temp.next = null;
 	}
-	
 	protected void reverseList() {
 	    if (isEmpty() || head.next == null) {
 	        return;
@@ -87,4 +86,5 @@ public class SinglyLinkedList {
 	    }
 	    head = prev;
 	}
+	
 }
